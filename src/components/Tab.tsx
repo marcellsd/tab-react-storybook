@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import { TabItem } from "./TabItens";
 
 
-interface TabProps{
+export interface TabProps{
     tabsData: {tabName: string; tabText: string;}[]
 }
 
