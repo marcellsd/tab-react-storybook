@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Tab } from './components/Tab';
+import { TabForm } from './components/TabForm';
 
 function App() {
   const tabsData = [
@@ -23,10 +24,13 @@ function App() {
     
 ]
   return (
-    
-    <Tab 
-    tabsData={tabsData}
-    />
+    <div>  
+      <Tab 
+      tabsData={tabsData}
+      />
+      <TabForm></TabForm>
+    </div>
+
   );
 }
 
