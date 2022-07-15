@@ -6,9 +6,6 @@ interface TabProps{
     tabsData: {tabName: string; tabText: string;}[]
 }
 
-
-
-
 export function Tab(props: TabProps){
     const tabNames = props.tabsData.map((tab) => tab.tabName)
     const tabTexts = props.tabsData.map((tab) => tab.tabText)
