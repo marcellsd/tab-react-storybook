@@ -6,23 +6,6 @@ import { TabForm } from './components/TabForm';
 
 const emptyTab: TabProps = {
   tabsData:[
-    {
-        tabName: 'tab 1',
-        tabText: 'Texto do primeiro tab'
-    },
-    {
-        tabName: 'tab 2',
-        tabText: 'Texto do segundo tab'
-    },
-    {
-        tabName: 'tab 3',
-        tabText: 'Texto do terceiro tab'
-    },
-    {
-        tabName: 'tab 4',
-        tabText: 'Texto do quarto tab'
-    },
-    
 ]
 }
 

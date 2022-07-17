@@ -1,4 +1,5 @@
 import {FormEvent, useState} from "react"
+import './TabForm.css'
 
 
 interface TabFormProps {
@@ -141,7 +142,7 @@ export function TabForm({onSubmit}: TabFormProps){
       </div>
     </div>
     return (
-    <form onSubmit={submit}>
+    <form className="qst-form" onSubmit={submit}>
         {numTabsElm}
         {tabFormElm}  
         {button}
